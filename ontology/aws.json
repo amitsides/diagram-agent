@@ -1,0 +1,627 @@
+{
+    "aws.analytics": [
+      {
+        "class": "diagrams.aws.analytics.AmazonOpensearchService"
+      },
+      {
+        "class": "diagrams.aws.analytics.Analytics"
+      },
+      {
+        "class": "diagrams.aws.analytics.Athena"
+      },
+      {
+        "class": "diagrams.aws.analytics.CloudsearchSearchDocuments"
+      },
+      {
+        "class": "diagrams.aws.analytics.Cloudsearch"
+      },
+      {
+        "class": "diagrams.aws.analytics.DataLakeResource"
+      },
+      {
+        "class": "diagrams.aws.analytics.DataPipeline"
+      },
+      {
+        "class": "diagrams.aws.analytics.ElasticsearchService",
+        "aliases": [
+          "ES"
+        ]
+      },
+      {
+        "class": "diagrams.aws.analytics.EMRCluster"
+      },
+      {
+        "class": "diagrams.aws.analytics.EMREngineMaprM3"
+      },
+      {
+        "class": "diagrams.aws.analytics.EMREngineMaprM5"
+      },
+      {
+        "class": "diagrams.aws.analytics.EMREngineMaprM7"
+      },
+      {
+        "class": "diagrams.aws.analytics.EMREngine"
+      },
+      {
+        "class": "diagrams.aws.analytics.EMRHdfsCluster"
+      },
+      {
+        "class": "diagrams.aws.analytics.EMR"
+      },
+      {
+        "class": "diagrams.aws.analytics.GlueCrawlers"
+      },
+      {
+        "class": "diagrams.aws.analytics.GlueDataCatalog"
+      },
+      {
+        "class": "diagrams.aws.analytics.Glue"
+      },
+      {
+        "class": "diagrams.aws.analytics.KinesisDataAnalytics"
+      },
+      {
+        "class": "diagrams.aws.analytics.KinesisDataFirehose"
+      },
+      {
+        "class": "diagrams.aws.analytics.KinesisDataStreams"
+      },
+      {
+        "class": "diagrams.aws.analytics.KinesisVideoStreams"
+      },
+      {
+        "class": "diagrams.aws.analytics.Kinesis"
+      },
+      {
+        "class": "diagrams.aws.analytics.LakeFormation"
+      },
+      {
+        "class": "diagrams.aws.analytics.ManagedStreamingForKafka"
+      },
+      {
+        "class": "diagrams.aws.analytics.Quicksight"
+      },
+      {
+        "class": "diagrams.aws.analytics.RedshiftDenseComputeNode"
+      },
+      {
+        "class": "diagrams.aws.analytics.RedshiftDenseStorageNode"
+      },
+      {
+        "class": "diagrams.aws.analytics.Redshift"
+      }
+    ],
+    "aws.ar": [
+      {
+        "class": "diagrams.aws.ar.ArVr"
+      },
+      {
+        "class": "diagrams.aws.ar.Sumerian"
+      }
+    ],
+    "aws.blockchain": [
+      {
+        "class": "diagrams.aws.blockchain.BlockchainResource"
+      },
+      {
+        "class": "diagrams.aws.blockchain.Blockchain"
+      },
+      {
+        "class": "diagrams.aws.blockchain.ManagedBlockchain"
+      },
+      {
+        "class": "diagrams.aws.blockchain.QuantumLedgerDatabaseQldb",
+        "aliases": [
+          "QLDB"
+        ]
+      }
+    ],
+    "aws.business": [
+      {
+        "class": "diagrams.aws.business.AlexaForBusiness",
+        "aliases": [
+          "A4B"
+        ]
+      },
+      {
+        "class": "diagrams.aws.business.BusinessApplications"
+      },
+      {
+        "class": "diagrams.aws.business.Chime"
+      },
+      {
+        "class": "diagrams.aws.business.Workmail"
+      }
+    ],
+    "aws.compute": [
+      {
+        "class": "diagrams.aws.compute.AppRunner"
+      },
+      {
+        "class": "diagrams.aws.compute.ApplicationAutoScaling",
+        "aliases": [
+          "AutoScaling"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.Batch"
+      },
+      {
+        "class": "diagrams.aws.compute.ComputeOptimizer"
+      },
+      {
+        "class": "diagrams.aws.compute.Compute"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2Ami",
+        "aliases": [
+          "AMI"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.EC2AutoScaling"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2ContainerRegistryImage"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2ContainerRegistryRegistry"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2ContainerRegistry",
+        "aliases": [
+          "ECR"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.EC2ElasticIpAddress"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2ImageBuilder"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2Instance"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2Instances"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2Rescue"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2SpotInstance"
+      },
+      {
+        "class": "diagrams.aws.compute.EC2"
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticBeanstalkApplication"
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticBeanstalkDeployment"
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticBeanstalk",
+        "aliases": [
+          "EB"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticContainerServiceContainer"
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticContainerServiceService"
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticContainerServiceTask"
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticContainerService",
+        "aliases": [
+          "ECS"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.ElasticKubernetesService",
+        "aliases": [
+          "EKS"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.Fargate"
+      },
+      {
+        "class": "diagrams.aws.compute.LambdaFunction"
+      },
+      {
+        "class": "diagrams.aws.compute.Lambda"
+      },
+      {
+        "class": "diagrams.aws.compute.Lightsail"
+      },
+      {
+        "class": "diagrams.aws.compute.LocalZones"
+      },
+      {
+        "class": "diagrams.aws.compute.Outposts"
+      },
+      {
+        "class": "diagrams.aws.compute.ServerlessApplicationRepository",
+        "aliases": [
+          "SAR"
+        ]
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxDeadline"
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxDraft"
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxFrost"
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxKrakatoa"
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxSequoia"
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxStoke"
+      },
+      {
+        "class": "diagrams.aws.compute.ThinkboxXmesh"
+      },
+      {
+        "class": "diagrams.aws.compute.VmwareCloudOnAWS"
+      },
+      {
+        "class": "diagrams.aws.compute.Wavelength"
+      }
+    ],
+    "aws.cost": [
+      {
+        "class": "diagrams.aws.cost.Budgets"
+      },
+      {
+        "class": "diagrams.aws.cost.CostAndUsageReport"
+      },
+      {
+        "class": "diagrams.aws.cost.CostExplorer"
+      },
+      {
+        "class": "diagrams.aws.cost.CostManagement"
+      },
+      {
+        "class": "diagrams.aws.cost.ReservedInstanceReporting"
+      },
+      {
+        "class": "diagrams.aws.cost.SavingsPlans"
+      }
+    ],
+    "aws.database": [
+      {
+        "class": "diagrams.aws.database.AuroraInstance"
+      },
+      {
+        "class": "diagrams.aws.database.Aurora"
+      },
+      {
+        "class": "diagrams.aws.database.DatabaseMigrationServiceDatabaseMigrationWorkflow"
+      },
+      {
+        "class": "diagrams.aws.database.DatabaseMigrationService",
+        "aliases": [
+          "DMS"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.Database",
+        "aliases": [
+          "DB"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.DocumentdbMongodbCompatibility",
+        "aliases": [
+          "DocumentDB"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbAttribute"
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbAttributes"
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbDax",
+        "aliases": [
+          "DAX"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbGlobalSecondaryIndex",
+        "aliases": [
+          "DynamodbGSI"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbItem"
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbItems"
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbStreams"
+      },
+      {
+        "class": "diagrams.aws.database.DynamodbTable"
+      },
+      {
+        "class": "diagrams.aws.database.Dynamodb",
+        "aliases": [
+          "DDB"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.ElasticacheCacheNode"
+      },
+      {
+        "class": "diagrams.aws.database.ElasticacheForMemcached"
+      },
+      {
+        "class": "diagrams.aws.database.ElasticacheForRedis"
+      },
+      {
+        "class": "diagrams.aws.database.Elasticache",
+        "aliases": [
+          "ElastiCache"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.KeyspacesManagedApacheCassandraService"
+      },
+      {
+        "class": "diagrams.aws.database.Neptune"
+      },
+      {
+        "class": "diagrams.aws.database.QuantumLedgerDatabaseQldb",
+        "aliases": [
+          "QLDB"
+        ]
+      },
+      {
+        "class": "diagrams.aws.database.RDSInstance"
+      },
+      {
+        "class": "diagrams.aws.database.RDSMariadbInstance"
+      },
+      {
+        "class": "diagrams.aws.database.RDSMysqlInstance"
+      },
+      {
+        "class": "diagrams.aws.database.RDSOnVmware"
+      },
+      {
+        "class": "diagrams.aws.database.RDSOracleInstance"
+      },
+      {
+        "class": "diagrams.aws.database.RDSPostgresqlInstance"
+      },
+      {
+        "class": "diagrams.aws.database.RDSSqlServerInstance"
+      },
+      {
+        "class": "diagrams.aws.database.RDS"
+      },
+      {
+        "class": "diagrams.aws.database.RedshiftDenseComputeNode"
+      },
+      {
+        "class": "diagrams.aws.database.RedshiftDenseStorageNode"
+      },
+      {
+        "class": "diagrams.aws.database.Redshift"
+      },
+      {
+        "class": "diagrams.aws.database.Timestream"
+      }
+    ],
+    "aws.devtools": [
+      {
+        "class": "diagrams.aws.devtools.CloudDevelopmentKit"
+      },
+      {
+        "class": "diagrams.aws.devtools.Cloud9Resource"
+      },
+      {
+        "class": "diagrams.aws.devtools.Cloud9"
+      },
+      {
+        "class": "diagrams.aws.devtools.Cloudshell"
+      },
+      {
+        "class": "diagrams.aws.devtools.Codeartifact"
+      },
+      {
+        "class": "diagrams.aws.devtools.Codebuild"
+      },
+      {
+        "class": "diagrams.aws.devtools.Codecommit"
+      },
+      {
+        "class": "diagrams.aws.devtools.Codedeploy"
+      },
+      {
+        "class": "diagrams.aws.devtools.Codepipeline"
+      },
+      {
+        "class": "diagrams.aws.devtools.Codestar"
+      },
+      {
+        "class": "diagrams.aws.devtools.CommandLineInterface",
+        "aliases": [
+          "CLI"
+        ]
+      },
+      {
+        "class": "diagrams.aws.devtools.DeveloperTools",
+        "aliases": [
+          "DevTools"
+        ]
+      },
+      {
+        "class": "diagrams.aws.devtools.ToolsAndSdks"
+      },
+      {
+        "class": "diagrams.aws.devtools.XRay"
+      }
+    ],
+    "aws.enablement": [
+      {
+        "class": "diagrams.aws.enablement.CustomerEnablement"
+      },
+      {
+        "class": "diagrams.aws.enablement.Iq"
+      },
+      {
+        "class": "diagrams.aws.enablement.ManagedServices"
+      },
+      {
+        "class": "diagrams.aws.enablement.ProfessionalServices"
+      },
+      {
+        "class": "diagrams.aws.enablement.Support"
+      }
+    ],
+    "aws.enduser": [
+      {
+        "class": "diagrams.aws.enduser.Appstream20"
+      },
+      {
+        "class": "diagrams.aws.enduser.DesktopAndAppStreaming"
+      },
+      {
+        "class": "diagrams.aws.enduser.Workdocs"
+      },
+      {
+        "class": "diagrams.aws.enduser.Worklink"
+      },
+      {
+        "class": "diagrams.aws.enduser.Workspaces"
+      }
+    ],
+    "aws.engagement": [
+      {
+        "class": "diagrams.aws.engagement.Connect"
+      },
+      {
+        "class": "diagrams.aws.engagement.CustomerEngagement"
+      },
+      {
+        "class": "diagrams.aws.engagement.Pinpoint"
+      },
+      {
+        "class": "diagrams.aws.engagement.SimpleEmailServiceSesEmail"
+      },
+      {
+        "class": "diagrams.aws.engagement.SimpleEmailServiceSes",
+        "aliases": [
+          "SES"
+        ]
+      }
+    ],
+    "aws.game": [
+      {
+        "class": "diagrams.aws.game.GameTech"
+      },
+      {
+        "class": "diagrams.aws.game.Gamelift"
+      }
+    ],
+    "aws.general": [
+      {
+        "class": "diagrams.aws.general.Client"
+      },
+      {
+        "class": "diagrams.aws.general.Disk"
+      },
+      {
+        "class": "diagrams.aws.general.Forums"
+      },
+      {
+        "class": "diagrams.aws.general.General"
+      },
+      {
+        "class": "diagrams.aws.general.GenericDatabase"
+      },
+      {
+        "class": "diagrams.aws.general.GenericFirewall"
+      },
+      {
+        "class": "diagrams.aws.general.GenericOfficeBuilding",
+        "aliases": [
+          "OfficeBuilding"
+        ]
+      },
+      {
+        "class": "diagrams.aws.general.GenericSamlToken"
+      },
+      {
+        "class": "diagrams.aws.general.GenericSDK"
+      },
+      {
+        "class": "diagrams.aws.general.InternetAlt1"
+      },
+      {
+        "class": "diagrams.aws.general.InternetAlt2"
+      },
+      {
+        "class": "diagrams.aws.general.InternetGateway"
+      },
+      {
+        "class": "diagrams.aws.general.Marketplace"
+      },
+      {
+        "class": "diagrams.aws.general.MobileClient"
+      },
+      {
+        "class": "diagrams.aws.general.Multimedia"
+      },
+      {
+        "class": "diagrams.aws.general.OfficeBuilding"
+      },
+      {
+        "class": "diagrams.aws.general.SamlToken"
+      },
+      {
+        "class": "diagrams.aws.general.SDK"
+      },
+      {
+        "class": "diagrams.aws.general.SslPadlock"
+      },
+      {
+        "class": "diagrams.aws.general.TapeStorage"
+      },
+      {
+        "class": "diagrams.aws.general.Toolkit"
+      },
+      {
+        "class": "diagrams.aws.general.TraditionalServer"
+      },
+      {
+        "class": "diagrams.aws.general.User"
+      },
+      {
+        "class": "diagrams.aws.general.Users"
+      }
+    ],
+    "aws.integration": [
+      {
+        "class": "diagrams.aws.integration.ApplicationIntegration"
+      },
+      {
+        "class": "diagrams.aws.integration.Appsync"
+      }
+    ]
+  }

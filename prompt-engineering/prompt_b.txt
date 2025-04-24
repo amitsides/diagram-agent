@@ -1,0 +1,3 @@
+given a list of python class imports of some diagram library make a synthesis
+a. fix or build a  code to draw diagram from graph, model, ontology
+and the following components

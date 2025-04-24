@@ -1,0 +1,15 @@
+Generate a JSON representation of a cloud infrastructure diagram with the following specifications
+given the user query {query} return a CloudProviderOntology which is the user intention for his cloud infrastructure architecture sugges the best possible architecture
+
+1. The JSON should have two main arrays: "nodes" and "edges"
+2. Each node should have these properties:
+   - "id": a unique identifier (string)
+   - "type": the service type (e.g., "ELB", "EC2", "RDS", "S3")
+   - "label": a display name (string)
+3. Each edge should have these properties:
+   - "source_id": ID of the source node
+   - "target_id": ID of the target node
+   - "type": relationship type (">>", "<<", or "-")
+   - "properties": an empty object for additional metadata
+
+Return ONLY the valid JSON object with no additional text or explanation.
